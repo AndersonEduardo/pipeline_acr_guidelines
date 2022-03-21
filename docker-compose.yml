@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  experiment:
+    build: .
+    image: experiment_image
+    volumes:
+      # - ./output:/home/datascientist/output
+      - ./output:/experiment/output
+    stdin_open: true
+    tty: true
