@@ -30,9 +30,5 @@ pip-delete-this-directory.txt
 
 #other
 __pycache__
-
 *.jpeg
 *.png
-
-*.csv
-*.xlsx
